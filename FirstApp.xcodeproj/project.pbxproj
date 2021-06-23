@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		74BDE7BE267A7C9400EB9EC4 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDE7AB267A7C9200EB9EC4 /* FirstAppApp.swift */; };
-		74BDE7BF267A7C9400EB9EC4 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDE7AB267A7C9200EB9EC4 /* FirstAppApp.swift */; };
 		74BDE7C0267A7C9400EB9EC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDE7AC267A7C9200EB9EC4 /* ContentView.swift */; };
-		74BDE7C1267A7C9400EB9EC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDE7AC267A7C9200EB9EC4 /* ContentView.swift */; };
 		74BDE7C2267A7C9400EB9EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDE7AD267A7C9400EB9EC4 /* Assets.xcassets */; };
-		74BDE7C3267A7C9400EB9EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDE7AD267A7C9400EB9EC4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,20 +18,12 @@
 		74BDE7AD267A7C9400EB9EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BDE7B2267A7C9400EB9EC4 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BDE7B5267A7C9400EB9EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74BDE7BA267A7C9400EB9EC4 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BDE7BC267A7C9400EB9EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BDE7BD267A7C9400EB9EC4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74BDE7AF267A7C9400EB9EC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BDE7B7267A7C9400EB9EC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				74BDE7B2267A7C9400EB9EC4 /* FirstApp.app */,
-				74BDE7BA267A7C9400EB9EC4 /* FirstApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +98,6 @@
 			productReference = 74BDE7B2267A7C9400EB9EC4 /* FirstApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74BDE7B9267A7C9400EB9EC4 /* FirstApp (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74BDE7C9267A7C9400EB9EC4 /* Build configuration list for PBXNativeTarget "FirstApp (macOS)" */;
-			buildPhases = (
-				74BDE7B6267A7C9400EB9EC4 /* Sources */,
-				74BDE7B7267A7C9400EB9EC4 /* Frameworks */,
-				74BDE7B8267A7C9400EB9EC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FirstApp (macOS)";
-			productName = "FirstApp (macOS)";
-			productReference = 74BDE7BA267A7C9400EB9EC4 /* FirstApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -137,9 +108,6 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					74BDE7B1267A7C9400EB9EC4 = {
-						CreatedOnToolsVersion = 12.5;
-					};
-					74BDE7B9267A7C9400EB9EC4 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -158,7 +126,6 @@
 			projectRoot = "";
 			targets = (
 				74BDE7B1267A7C9400EB9EC4 /* FirstApp (iOS) */,
-				74BDE7B9267A7C9400EB9EC4 /* FirstApp (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -172,14 +139,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74BDE7B8267A7C9400EB9EC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74BDE7C3267A7C9400EB9EC4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,15 +148,6 @@
 			files = (
 				74BDE7C0267A7C9400EB9EC4 /* ContentView.swift in Sources */,
 				74BDE7BE267A7C9400EB9EC4 /* FirstAppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BDE7B6267A7C9400EB9EC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74BDE7C1267A7C9400EB9EC4 /* ContentView.swift in Sources */,
-				74BDE7BF267A7C9400EB9EC4 /* FirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +207,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -310,6 +260,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -360,50 +311,6 @@
 			};
 			name = Release;
 		};
-		74BDE7CA267A7C9400EB9EC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pickachu.FirstApp;
-				PRODUCT_NAME = FirstApp;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		74BDE7CB267A7C9400EB9EC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pickachu.FirstApp;
-				PRODUCT_NAME = FirstApp;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,15 +328,6 @@
 			buildConfigurations = (
 				74BDE7C7267A7C9400EB9EC4 /* Debug */,
 				74BDE7C8267A7C9400EB9EC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74BDE7C9267A7C9400EB9EC4 /* Build configuration list for PBXNativeTarget "FirstApp (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74BDE7CA267A7C9400EB9EC4 /* Debug */,
-				74BDE7CB267A7C9400EB9EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
